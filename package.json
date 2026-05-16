@@ -1,0 +1,38 @@
+{
+  "name": "md-resume-creator",
+  "version": "2.0.0",
+  "description": "MD Resume Creator — Advanced Resume Platform with ATS Analysis, Visual Editor, and 100+ Templates. 100% Offline.",
+  "private": true,
+  "author": "MD Dev Studio",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently --names \"DASH,API\" --prefix-colors \"magenta,cyan\" \"npm run dev:dashboard\" \"npm run dev:backend\"",
+    "dev:dashboard": "cd dashboard && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "install:all": "npm install && cd dashboard && npm install && cd ../backend && npm install && cd ../cli && npm install",
+    "build": "cd dashboard && npm run build",
+    "start": "concurrently --names \"DASH,API\" --prefix-colors \"magenta,cyan\" \"cd dashboard && npm run preview\" \"cd backend && npm start\"",
+    "cli": "node cli/run.js",
+    "test": "cd backend && npm test",
+    "postinstall": "echo \"\n  ✅ MD Resume Creator v2.0 installed!\n\n  Run: npm run dev\n  Dashboard → http://localhost:5173\n  Backend  → http://localhost:3001\n\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "bin": {
+    "mdstudio": "./cli/run.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "resume-builder",
+    "ats-analyzer",
+    "resume-templates",
+    "pdf-export",
+    "offline",
+    "free",
+    "no-ai"
+  ]
+}

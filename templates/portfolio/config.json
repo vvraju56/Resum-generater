@@ -1,0 +1,28 @@
+{
+  "name": "Portfolio Website",
+  "type": "portfolio",
+  "description": "Personal portfolio with hero, projects, skills and contact",
+  "icon": "\ud83c\udfa8",
+  "color": "#f6ad55",
+  "layout": "single-page",
+  "font": "Inter",
+  "accent": "#ff79ee",
+  "darkMode": true,
+  "features": [
+    "Hero section",
+    "Projects grid",
+    "Skills cloud",
+    "Contact form",
+    "Sticky navbar"
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}

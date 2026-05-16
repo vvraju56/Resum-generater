@@ -1,0 +1,27 @@
+{
+  "name": "Documentation Site",
+  "type": "docs-site",
+  "description": "Docs site with sidebar navigation and markdown rendering",
+  "icon": "\ud83d\udcda",
+  "color": "#60a5fa",
+  "layout": "sidebar",
+  "font": "Inter",
+  "accent": "#60a5fa",
+  "darkMode": true,
+  "features": [
+    "Sidebar nav",
+    "Search",
+    "Markdown ready",
+    "Code blocks"
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}

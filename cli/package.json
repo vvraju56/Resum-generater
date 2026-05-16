@@ -1,0 +1,15 @@
+{
+  "name": "md-dev-studio-cli",
+  "version": "1.0.0",
+  "description": "MD Dev Studio CLI — scaffold projects from the terminal",
+  "main": "run.js",
+  "bin": {
+    "mdstudio": "./run.js"
+  },
+  "scripts": {
+    "start": "node run.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

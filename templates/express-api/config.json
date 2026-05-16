@@ -1,0 +1,30 @@
+{
+  "name": "Express REST API",
+  "type": "express-api",
+  "description": "Node.js REST API with Express, CRUD routes and controller pattern",
+  "icon": "\ud83d\udfe2",
+  "color": "#68d391",
+  "layout": "backend",
+  "font": "Fira Code",
+  "accent": "#4ade80",
+  "darkMode": true,
+  "features": [
+    "Express 4",
+    "CRUD controller",
+    "Route split",
+    "Error middleware",
+    "dotenv",
+    "Nodemon"
+  ],
+  "stack": [
+    "Node.js",
+    "Express",
+    "CORS",
+    "Morgan"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "start": "npm start"
+  }
+}

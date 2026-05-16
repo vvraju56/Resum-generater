@@ -1,0 +1,15 @@
+{
+  "testEnvironment": "node",
+  "testMatch": ["**/tests/**/*.test.js"],
+  "collectCoverageFrom": [
+    "generators/**/*.js",
+    "!node_modules/**"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "functions": 70,
+      "lines": 70
+    }
+  },
+  "verbose": true
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Resume Builder App",
+  "type": "resume-builder",
+  "description": "Full resume builder with 8 themes, live preview and PDF export",
+  "icon": "\ud83d\udcc4",
+  "color": "#f87171",
+  "layout": "two-column",
+  "font": "Inter",
+  "accent": "#ff79ee",
+  "darkMode": true,
+  "features": [
+    "8 themes",
+    "Single and two-column",
+    "PDF export",
+    "Live preview",
+    "Local save"
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "jsPDF"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}

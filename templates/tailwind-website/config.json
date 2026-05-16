@@ -1,0 +1,28 @@
+{
+  "name": "Tailwind Website",
+  "type": "tailwind-website",
+  "description": "Static multi-section website with Tailwind CSS and PostCSS",
+  "icon": "\ud83d\udca8",
+  "color": "#38bdf8",
+  "layout": "static",
+  "font": "Inter",
+  "accent": "#38bdf8",
+  "darkMode": true,
+  "features": [
+    "Tailwind CSS",
+    "PostCSS",
+    "Responsive",
+    "Hero section",
+    "Features grid"
+  ],
+  "stack": [
+    "HTML",
+    "Tailwind CSS",
+    "PostCSS"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npx tailwindcss --watch",
+    "build": "npx tailwindcss --minify"
+  }
+}

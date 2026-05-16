@@ -1,0 +1,26 @@
+{
+  "name": "md-resume-creator",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MD Resume Creator — Advanced Resume Platform with ATS Analysis and Visual Editor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^1.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
+}

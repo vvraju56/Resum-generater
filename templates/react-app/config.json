@@ -1,0 +1,25 @@
+{
+  "name": "React App Starter",
+  "type": "react-app",
+  "description": "Full-featured React app with Vite, Tailwind CSS, React Router and custom hooks",
+  "icon": "⚛️",
+  "color": "#61dafb",
+  "layout": "single-page",
+  "font": "Inter",
+  "accent": "#ff79ee",
+  "darkMode": true,
+  "features": [
+    "React 18 + Vite 5",
+    "Tailwind CSS + PostCSS",
+    "React Router v6",
+    "useLocalStorage hook",
+    "Navbar + Footer components",
+    "Home + About pages"
+  ],
+  "stack": ["React", "Vite", "Tailwind CSS", "React Router"],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}

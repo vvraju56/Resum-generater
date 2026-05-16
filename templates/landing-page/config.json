@@ -1,0 +1,25 @@
+{
+  "name": "Landing Page",
+  "type": "landing-page",
+  "description": "Static HTML landing page with hero and features grid. Zero dependencies.",
+  "icon": "\ud83d\ude80",
+  "color": "#ff79ee",
+  "layout": "static",
+  "font": "Inter",
+  "accent": "#ff79ee",
+  "darkMode": true,
+  "features": [
+    "Pure HTML + CSS",
+    "No build step",
+    "Features grid",
+    "Responsive"
+  ],
+  "stack": [
+    "HTML",
+    "CSS"
+  ],
+  "commands": {
+    "dev": "open index.html",
+    "deploy": "npx serve ."
+  }
+}

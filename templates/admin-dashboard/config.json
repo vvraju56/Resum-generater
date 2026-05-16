@@ -1,0 +1,27 @@
+{
+  "name": "Admin Dashboard",
+  "type": "admin-dashboard",
+  "description": "Full admin panel with sidebar, stats cards, user table and settings",
+  "icon": "\ud83d\udcca",
+  "color": "#a78bfa",
+  "layout": "sidebar",
+  "font": "Inter",
+  "accent": "#ff79ee",
+  "darkMode": true,
+  "features": [
+    "Sidebar navigation",
+    "Stats cards",
+    "User table",
+    "Settings page"
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}

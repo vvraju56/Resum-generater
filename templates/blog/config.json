@@ -1,0 +1,28 @@
+{
+  "name": "Blog Template",
+  "type": "blog",
+  "description": "React blog with post listing, detail pages and tag filtering",
+  "icon": "\ud83d\udcdd",
+  "color": "#f59e0b",
+  "layout": "single-page",
+  "font": "Georgia",
+  "accent": "#f59e0b",
+  "darkMode": true,
+  "features": [
+    "Post listing",
+    "Post detail",
+    "Tag filtering",
+    "Reading time",
+    "React Router"
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "Tailwind CSS"
+  ],
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build"
+  }
+}
