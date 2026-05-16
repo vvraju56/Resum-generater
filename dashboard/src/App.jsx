@@ -52,7 +52,7 @@ const ATS_KEYWORDS = {
   "Full Stack Developer": ["javascript", "react", "node.js", "python", "sql", "api", "docker", "git", "agile"],
 };
 
-const API = "http://localhost:3001/api";
+const API = (import.meta.env.VITE_API_URL || "http://localhost:3001") + "/api";
 const apiPost = (ep, body) => fetch(`${API}${ep}`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }).then(r => r.json());
 const apiGet = (ep) => fetch(`${API}${ep}`).then(r => r.json()).catch(() => null);
 
