@@ -617,11 +617,11 @@ function ATSAnalyzerPage() {
   };
 
   return (
-    <div className="page-container analyzer-container" style={{ padding: 32, maxWidth: 1000, margin: "0 auto" }}>
+    <div className="page-container analyzer-container" style={{ padding: 32, maxWidth: 1400, margin: "0 auto" }}>
       <h1 className="page-title" style={{ fontSize: 28, fontWeight: 900, color: "#fff", marginBottom: 8 }}>📊 ATS Resume Analyzer</h1>
       <p className="page-subtitle" style={{ color: "#666", fontSize: 14, marginBottom: 24 }}>Check your resume ATS score and get improvement suggestions.</p>
 
-      <div className="analyzer-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+      <div className="analyzer-grid" style={{ display: "grid", gridTemplateColumns: "minmax(400px, 1fr) minmax(400px, 1fr)", gap: 24 }}>
         <Card>
           <div style={{ fontWeight: 700, fontSize: 15, color: "#fff", marginBottom: 16 }}>Upload Resume</div>
           <div style={{ marginBottom: 16 }}>
@@ -713,11 +713,11 @@ function ATSAnalyzerPage() {
         )}
 
         {!results && (
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <GlassCard style={{ textAlign: "center", padding: 48 }}>
-              <div style={{ fontSize: 48, marginBottom: 16 }}>📊</div>
-              <div style={{ fontSize: 16, fontWeight: 600, color: "#fff", marginBottom: 8 }}>No Analysis Yet</div>
-              <div style={{ fontSize: 13, color: "#666" }}>Upload a resume or paste text to analyze</div>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", minHeight: 400 }}>
+            <GlassCard style={{ textAlign: "center", padding: "48px 64px", width: "100%", maxWidth: 500 }}>
+              <div style={{ fontSize: 56, marginBottom: 20 }}>📊</div>
+              <div style={{ fontSize: 18, fontWeight: 700, color: "#fff", marginBottom: 8 }}>No Analysis Yet</div>
+              <div style={{ fontSize: 14, color: "#666", lineHeight: 1.6 }}>Upload a resume file or paste your resume text on the left, then click <strong style={{ color: ACCENT }}>Analyze Resume</strong> to get your ATS score and improvement suggestions.</div>
             </GlassCard>
           </div>
         )}
