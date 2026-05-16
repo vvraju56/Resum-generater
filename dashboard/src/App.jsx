@@ -617,7 +617,7 @@ function ATSAnalyzerPage() {
   };
 
   return (
-    <div className="page-container analyzer-container" style={{ padding: 32, maxWidth: 1400, margin: "0 auto" }}>
+    <div style={{ padding: 32 }}>
       <h1 className="page-title" style={{ fontSize: 28, fontWeight: 900, color: "#fff", marginBottom: 8 }}>📊 ATS Resume Analyzer</h1>
       <p className="page-subtitle" style={{ color: "#666", fontSize: 14, marginBottom: 24 }}>Check your resume ATS score and get improvement suggestions.</p>
 
@@ -992,7 +992,7 @@ function ExportCenterPage() {
   };
 
   return (
-    <div className="page-container" style={{ padding: 32, maxWidth: 800, margin: "0 auto" }}>
+    <div style={{ padding: 32 }}>
       <h1 className="page-title" style={{ fontSize: 28, fontWeight: 900, color: "#fff", marginBottom: 8 }}>📥 Export Center</h1>
       <p className="page-subtitle" style={{ color: "#666", fontSize: 14, marginBottom: 32 }}>Export your resume in different formats.</p>
 
